@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'training';
+  constructor(){
+    setTimeout(() => {
+      this.title=" Krishnam ";
+    }, 2000);
+  }
 }
