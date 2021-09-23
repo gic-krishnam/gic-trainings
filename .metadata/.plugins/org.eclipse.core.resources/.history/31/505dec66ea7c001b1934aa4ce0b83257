@@ -1,0 +1,7 @@
+
+@Data
+public class test {
+
+	private String test;
+	private int price;
+}
